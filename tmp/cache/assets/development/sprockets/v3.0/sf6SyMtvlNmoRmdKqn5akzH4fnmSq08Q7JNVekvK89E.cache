@@ -1,0 +1,5 @@
+I">(function() {
+  $("imgInp").filestyle();
+
+}).call(this);
+:ET

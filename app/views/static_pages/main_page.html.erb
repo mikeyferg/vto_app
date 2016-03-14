@@ -1,20 +1,24 @@
 <div class="container">
   <div class="row">
-    <div class="make_selfie col-md-4 col-md-offset-4">
+    <div class="make_selfie col-sm-4 col-sm-offset-4">
       <div class="intro">
         <h1>Make a selfie video</h1>
         <%=image_tag "head.gif" %>
       </div>
-      <div class="instructions">
-        <h2>Record yourself turning your head, <b>SLOWLY<b></h2>
-        <p>All the way left and then right and back to center.</p>
-        <p>You should be filming for about 10 seconds.</p>
-        <p>Don't forget to start and stop the camera!</p>
+      <div class="row">
+        <div class="instructions col-sm-4 col-sm-offset-4">
+          <h2>Record yourself turning your head, <b>SLOWLY<b></h2>
+          <p>All the way left and then right and back to center.</p>
+          <p>You should be filming for about 10 seconds.</p>
+          <p>Don't forget to start and stop the camera!</p>
+        </div>
       </div>
-      <form id="form1" runat="server">
-        <input type='file' accept="video/*" id="imgInp"/>
-        <video id="face" src="#" alt="your image" ></video>
+      <form id="form1" runat="server" class="row">
+          <div class="col-sm-2 col-sm-offset-5">
+            <input type='file' accept="video/*" id="imgInp" class="add_video filestyle" data-classButton="btn btn-primary" data-input="false" data-classIcon="icon-plus" data-icon="false" data-buttonText="Load Camera"/>
+          </div>
+        <video id="face" src="#" alt="your image" disabled="disabled"></video>
       </form>
-    </div>
   </div>
 </div>
+<script>

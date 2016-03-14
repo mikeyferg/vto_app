@@ -38,6 +38,8 @@ gem 'rails_12factor', group: :production
 source "https://rubygems.org"
 ruby "2.2.2"
 
+gem 'bootstrap-filestyle-rails'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
