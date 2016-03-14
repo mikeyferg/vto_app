@@ -2690,3 +2690,21 @@ Started GET "/" for ::1 at 2016-03-13 14:16:12 -0700
 Processing by StaticPagesController#main_page as */*
   Rendered static_pages/main_page.html.erb within layouts/application (7.5ms)
 Completed 200 OK in 201ms (Views: 199.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-03-13 17:35:33 -0700
+Processing by StaticPagesController#main_page as HTML
+  Rendered static_pages/main_page.html.erb within layouts/application (101.1ms)
+Completed 200 OK in 4918ms (Views: 4909.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-9abc4bb25f7cd36f31285213beba57bba65cac8e4fc7e717198aef361a6ecc95.css?body=1" for ::1 at 2016-03-13 17:35:38 -0700
+
+
+Started GET "/assets/application.self-2a3254f74a528af6083efba1325ca737167e2786fcdfa932164d53874065671b.css?body=1" for ::1 at 2016-03-13 17:35:38 -0700
+
+
+Started GET "/" for ::1 at 2016-03-13 17:35:39 -0700
+Processing by StaticPagesController#main_page as */*
+  Rendered static_pages/main_page.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 150ms (Views: 148.7ms | ActiveRecord: 0.0ms)
