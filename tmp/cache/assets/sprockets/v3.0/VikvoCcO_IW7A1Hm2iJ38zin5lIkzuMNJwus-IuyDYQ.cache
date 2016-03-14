@@ -1,0 +1,9 @@
+I"o(function() {
+  $(":file").filestyle({
+    input: false
+  });
+
+  $("imgInp").filestyle();
+
+}).call(this);
+:ET

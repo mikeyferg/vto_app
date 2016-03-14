@@ -40,16 +40,13 @@ ruby "2.2.2"
 gem 'bootstrap-filestyle-rails'
 
 gem 'font-awesome-sass'
+gem 'annotate'
 
 group :development, :test do
-  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
-end
-
-group :development do
-  # Access an IRB console on exception pages or by using <%= console %> in views
-  gem 'web-console', '~> 2.0'
-
-  # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
-  gem 'spring'
+  gem 'pry'
+  gem 'pry-rails'
+  gem 'pry-byebug'
+  gem 'binding_of_caller'
+  gem 'better_errors'
 end

@@ -22778,3 +22778,315 @@ Started GET "/" for ::1 at 2016-03-13 23:56:55 -0700
 Processing by StaticPagesController#main_page as */*
   Rendered static_pages/main_page.html.erb within layouts/application (7.4ms)
 Completed 200 OK in 166ms (Views: 165.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-03-14 00:22:12 -0700
+Processing by StaticPagesController#main_page as HTML
+  Rendered static_pages/main_page.html.erb within layouts/application (10136.0ms)
+Completed 200 OK in 10347ms (Views: 10339.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-03-14 00:22:23 -0700
+Processing by StaticPagesController#main_page as HTML
+  Rendered static_pages/main_page.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 90ms (Views: 89.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-03-14 00:22:23 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-03-14 00:22:23 -0700
+
+
+Started GET "/assets/custom.self-cecf68cdc971dbe4f38bb375660f69f7ac10dae22692ee266c870535c7b73290.css?body=1" for ::1 at 2016-03-14 00:22:23 -0700
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-ff82aeed6b9bb6701696c84d1b223d2e682eb78c89117a438ce6cfea8c498995.woff2?v=4.5.0" for ::1 at 2016-03-14 00:22:23 -0700
+
+
+Started GET "/" for ::1 at 2016-03-14 00:22:23 -0700
+Processing by StaticPagesController#main_page as */*
+  Rendered static_pages/main_page.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 132ms (Views: 131.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-03-14 09:54:10 -0700
+Processing by StaticPagesController#main_page as HTML
+  Rendered static_pages/main_page.html.erb within layouts/application (31.2ms)
+Completed 200 OK in 2140ms (Views: 2134.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-03-14 09:54:12 -0700
+Processing by StaticPagesController#main_page as HTML
+  Rendered static_pages/main_page.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 150ms (Views: 149.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/freelancer.self-16a9f15a3f19919858482a0dcc226f34650614155ee7c7ce784b52df641319c0.css?body=1" for ::1 at 2016-03-14 09:54:12 -0700
+
+
+Started GET "/" for ::1 at 2016-03-14 09:54:12 -0700
+Processing by StaticPagesController#main_page as */*
+  Rendered static_pages/main_page.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 147ms (Views: 146.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-03-14 09:54:43 -0700
+Processing by StaticPagesController#main_page as HTML
+  Rendered static_pages/main_page.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 113ms (Views: 112.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-80c5df5ede3d44ed79ba7152bddd0dadc8e4e59f963ac7f8e4456ae1ce877ace.css?body=1" for ::1 at 2016-03-14 09:54:43 -0700
+
+
+Started GET "/assets/freelancer.self-16a9f15a3f19919858482a0dcc226f34650614155ee7c7ce784b52df641319c0.css?body=1" for ::1 at 2016-03-14 09:54:43 -0700
+
+
+Started GET "/assets/custom.self-cecf68cdc971dbe4f38bb375660f69f7ac10dae22692ee266c870535c7b73290.css?body=1" for ::1 at 2016-03-14 09:54:43 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-03-14 09:54:43 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-03-14 09:54:43 -0700
+
+
+Started GET "/assets/application.self-f2237c6afb159dc5b091bff41bf041571af69347a27e35d718046c6899032133.css?body=1" for ::1 at 2016-03-14 09:54:43 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-14 09:54:43 -0700
+
+
+Started GET "/assets/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for ::1 at 2016-03-14 09:54:43 -0700
+
+
+Started GET "/assets/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for ::1 at 2016-03-14 09:54:43 -0700
+
+
+Started GET "/assets/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for ::1 at 2016-03-14 09:54:43 -0700
+
+
+Started GET "/assets/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for ::1 at 2016-03-14 09:54:43 -0700
+
+
+Started GET "/assets/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for ::1 at 2016-03-14 09:54:43 -0700
+
+
+Started GET "/assets/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for ::1 at 2016-03-14 09:54:43 -0700
+
+
+Started GET "/assets/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for ::1 at 2016-03-14 09:54:43 -0700
+
+
+Started GET "/assets/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for ::1 at 2016-03-14 09:54:43 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for ::1 at 2016-03-14 09:54:43 -0700
+
+
+Started GET "/assets/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for ::1 at 2016-03-14 09:54:43 -0700
+
+
+Started GET "/assets/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for ::1 at 2016-03-14 09:54:43 -0700
+
+
+Started GET "/assets/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for ::1 at 2016-03-14 09:54:43 -0700
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-03-14 09:54:43 -0700
+
+
+Started GET "/assets/bootstrap-filestyle.self-db34807f301c362e4d5305c1dc1cf0634857f66baa4d7322f01732f210b699e8.js?body=1" for ::1 at 2016-03-14 09:54:43 -0700
+
+
+Started GET "/assets/static_pages.self-d42a6a94975802c1a2794ee94c534781deff158900f50603e6890050385bd507.js?body=1" for ::1 at 2016-03-14 09:54:43 -0700
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2016-03-14 09:54:43 -0700
+
+
+Started GET "/assets/head-7628525a633359ffd396de7221a20a0d9cae4335f693883a115894e5548e7836.gif" for ::1 at 2016-03-14 09:54:43 -0700
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-ff82aeed6b9bb6701696c84d1b223d2e682eb78c89117a438ce6cfea8c498995.woff2?v=4.5.0" for ::1 at 2016-03-14 09:54:43 -0700
+
+
+Started GET "/" for ::1 at 2016-03-14 09:54:43 -0700
+Processing by StaticPagesController#main_page as */*
+  Rendered static_pages/main_page.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 75ms (Views: 74.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-03-14 09:54:53 -0700
+Processing by StaticPagesController#main_page as HTML
+  Rendered static_pages/main_page.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 53ms (Views: 52.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/freelancer.self-16a9f15a3f19919858482a0dcc226f34650614155ee7c7ce784b52df641319c0.css?body=1" for ::1 at 2016-03-14 09:54:53 -0700
+
+
+Started GET "/assets/static_pages.self-80c5df5ede3d44ed79ba7152bddd0dadc8e4e59f963ac7f8e4456ae1ce877ace.css?body=1" for ::1 at 2016-03-14 09:54:53 -0700
+
+
+Started GET "/assets/application.self-f2237c6afb159dc5b091bff41bf041571af69347a27e35d718046c6899032133.css?body=1" for ::1 at 2016-03-14 09:54:53 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-03-14 09:54:53 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-03-14 09:54:53 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-14 09:54:53 -0700
+
+
+Started GET "/assets/custom.self-cecf68cdc971dbe4f38bb375660f69f7ac10dae22692ee266c870535c7b73290.css?body=1" for ::1 at 2016-03-14 09:54:53 -0700
+
+
+Started GET "/assets/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for ::1 at 2016-03-14 09:54:53 -0700
+
+
+Started GET "/assets/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for ::1 at 2016-03-14 09:54:53 -0700
+
+
+Started GET "/assets/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for ::1 at 2016-03-14 09:54:53 -0700
+
+
+Started GET "/assets/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for ::1 at 2016-03-14 09:54:53 -0700
+
+
+Started GET "/assets/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for ::1 at 2016-03-14 09:54:53 -0700
+
+
+Started GET "/assets/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for ::1 at 2016-03-14 09:54:53 -0700
+
+
+Started GET "/assets/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for ::1 at 2016-03-14 09:54:53 -0700
+
+
+Started GET "/assets/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for ::1 at 2016-03-14 09:54:53 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for ::1 at 2016-03-14 09:54:53 -0700
+
+
+Started GET "/assets/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for ::1 at 2016-03-14 09:54:53 -0700
+
+
+Started GET "/assets/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for ::1 at 2016-03-14 09:54:53 -0700
+
+
+Started GET "/assets/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for ::1 at 2016-03-14 09:54:53 -0700
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-03-14 09:54:53 -0700
+
+
+Started GET "/assets/bootstrap-filestyle.self-db34807f301c362e4d5305c1dc1cf0634857f66baa4d7322f01732f210b699e8.js?body=1" for ::1 at 2016-03-14 09:54:53 -0700
+
+
+Started GET "/assets/static_pages.self-d42a6a94975802c1a2794ee94c534781deff158900f50603e6890050385bd507.js?body=1" for ::1 at 2016-03-14 09:54:53 -0700
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2016-03-14 09:54:53 -0700
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-ff82aeed6b9bb6701696c84d1b223d2e682eb78c89117a438ce6cfea8c498995.woff2?v=4.5.0" for ::1 at 2016-03-14 09:54:53 -0700
+
+
+Started GET "/assets/head-7628525a633359ffd396de7221a20a0d9cae4335f693883a115894e5548e7836.gif" for ::1 at 2016-03-14 09:54:53 -0700
+
+
+Started GET "/" for ::1 at 2016-03-14 09:54:53 -0700
+Processing by StaticPagesController#main_page as */*
+  Rendered static_pages/main_page.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 92ms (Views: 91.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-03-14 10:01:21 -0700
+Processing by StaticPagesController#main_page as HTML
+  Rendered static_pages/main_page.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 1639ms (Views: 1638.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-03-14 10:01:22 -0700
+
+
+Started GET "/assets/static_pages.self-80c5df5ede3d44ed79ba7152bddd0dadc8e4e59f963ac7f8e4456ae1ce877ace.css?body=1" for ::1 at 2016-03-14 10:01:22 -0700
+
+
+Started GET "/assets/freelancer.self-6017a59cefbac4b1b2cc0c32c223ac8ede947d993cd93c76b69f5a8b54eeb786.css?body=1" for ::1 at 2016-03-14 10:01:22 -0700
+
+
+Started GET "/assets/custom.self-cecf68cdc971dbe4f38bb375660f69f7ac10dae22692ee266c870535c7b73290.css?body=1" for ::1 at 2016-03-14 10:01:22 -0700
+
+
+Started GET "/assets/application.self-f2237c6afb159dc5b091bff41bf041571af69347a27e35d718046c6899032133.css?body=1" for ::1 at 2016-03-14 10:01:22 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-03-14 10:01:22 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-14 10:01:22 -0700
+
+
+Started GET "/assets/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for ::1 at 2016-03-14 10:01:22 -0700
+
+
+Started GET "/assets/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for ::1 at 2016-03-14 10:01:22 -0700
+
+
+Started GET "/assets/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for ::1 at 2016-03-14 10:01:22 -0700
+
+
+Started GET "/assets/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for ::1 at 2016-03-14 10:01:22 -0700
+
+
+Started GET "/assets/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for ::1 at 2016-03-14 10:01:22 -0700
+
+
+Started GET "/assets/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for ::1 at 2016-03-14 10:01:22 -0700
+
+
+Started GET "/assets/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for ::1 at 2016-03-14 10:01:22 -0700
+
+
+Started GET "/assets/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for ::1 at 2016-03-14 10:01:22 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for ::1 at 2016-03-14 10:01:22 -0700
+
+
+Started GET "/assets/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for ::1 at 2016-03-14 10:01:22 -0700
+
+
+Started GET "/assets/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for ::1 at 2016-03-14 10:01:22 -0700
+
+
+Started GET "/assets/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for ::1 at 2016-03-14 10:01:22 -0700
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-03-14 10:01:22 -0700
+
+
+Started GET "/assets/bootstrap-filestyle.self-db34807f301c362e4d5305c1dc1cf0634857f66baa4d7322f01732f210b699e8.js?body=1" for ::1 at 2016-03-14 10:01:23 -0700
+
+
+Started GET "/assets/static_pages.self-d42a6a94975802c1a2794ee94c534781deff158900f50603e6890050385bd507.js?body=1" for ::1 at 2016-03-14 10:01:23 -0700
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2016-03-14 10:01:23 -0700
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-ff82aeed6b9bb6701696c84d1b223d2e682eb78c89117a438ce6cfea8c498995.woff2?v=4.5.0" for ::1 at 2016-03-14 10:01:23 -0700
+
+
+Started GET "/assets/head-7628525a633359ffd396de7221a20a0d9cae4335f693883a115894e5548e7836.gif" for ::1 at 2016-03-14 10:01:23 -0700
+
+
+Started GET "/" for ::1 at 2016-03-14 10:01:23 -0700
+Processing by StaticPagesController#main_page as */*
+  Rendered static_pages/main_page.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 99ms (Views: 98.9ms | ActiveRecord: 0.0ms)
