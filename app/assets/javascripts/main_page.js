@@ -17,6 +17,7 @@ $(document).ready(function(){
           reader.onload = function (e) {
 
               $('video').attr('src', e.target.result);
+              console.log(e.target.result)
               $('video').removeClass('hidden');
           }
           reader.readAsDataURL(input.files[0]);
