@@ -6,10 +6,10 @@ body {
     overflow-x: hidden;
 }
 
-p {
+/*p {
     font-size: 15px;
     font-weight: normal;
-}
+}*/
 
 p.small {
     font-size: 16px;
@@ -459,10 +459,17 @@ footer .footer-below {
 
 .test {
   color: black;
+
+}
+p {
+  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
 }
 
-h3 {
-  font-size: 15px;
+
+.test h3 {
+  font-size: 16px;
+  margin-top: 5px;
 }
 
 .center {
@@ -471,6 +478,11 @@ h3 {
 
 .center form {
     display:inline-block;
+}
+
+header {
+  padding-top: 20px;
+  margin-bottom: 5px;
 }
 
 /*.hidden {
