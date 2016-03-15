@@ -51,20 +51,23 @@
                   <h3>Record yourself turning your head, <br><b>SLOWLY<b></h2>
               </div>
               <div class="col-sm-4 portfolio-item center">
-                  <p>All the way left and then right and back to center.</p>
+                  <p>Turn head all the way left and then right and back to center.</p>
               </div>
               <div class="col-sm-4 portfolio-item center">
                   <p>You should be filming for about 10 seconds.</p>
               </div>
-              <div class="col-sm-4 portfolio-item center">
+              <!-- <div class="col-sm-4 portfolio-item center">
                   <p>Don't forget to start and stop the camera!</p>
-              </div>
+              </div> -->
           </div>
           <div class="row">
             <div class="col-sm-4 portfolio-item center">
               <form id="form1" runat="server" class="row col-centered">
                 <input type='file' accept="video/*" id="imgInp" class="add_video filestyle " data-classButton="btn btn-primary" data-input="false" data-classIcon="icon-plus" data-icon="false" data-buttonText="Load Camera"/>
-                <video id="face" src="#" alt="your image" disabled="disabled"></video>
+                <!-- <video id="face" src="#" alt="your image" disabled="disabled"></video> -->
+
+                      <%= video_tag("#", size: "50x100", :class => "hidden")%>
+
               </form>
             </div>
           </div>
