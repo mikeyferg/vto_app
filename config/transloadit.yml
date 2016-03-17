@@ -29,7 +29,7 @@ production:
   jquery_sdk_version: 'v2-latest'
   auth:
     key     : <%= ENV['TRANSLOADIT_KEY_ID'] %>
-    secret  : <%= ENV['TRANSLOADIT_SECRET'] # this is optional, but highly recommended, https://transloadit.com/docs/authentication
+    secret  : <%= ENV['TRANSLOADIT_SECRET'] %> # this is optional, but highly recommended, https://transloadit.com/docs/authentication
     duration: 1800 # 30 minute validity period for signed upload forms
 
   templates:
