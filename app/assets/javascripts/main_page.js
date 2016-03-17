@@ -6,11 +6,7 @@ $(document).ready(function(){
     input: false
   })
 
-  $("imgInp").filestyle();
-
-
-
-  $("add_video").filestyle();
+  // $("imgInp").filestyle();
 
 
   $("#imgInp").on("click", function(){

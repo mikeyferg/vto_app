@@ -2,6 +2,7 @@
 
 <%= javascript_include_tag '//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js' %>
 
+
 <!-- Header -->
 <header>
     <div class="container">
@@ -37,9 +38,9 @@
       </div>
       <div class="row">
         <div class="col-sm-4 portfolio-item center">
-          <%= form_for Video.new, :html => { :id => 'upload', class: "row col-centered filestyle" } do |form| %>
+          <%= form_for Video.new, :html => { :id => 'upload', class: "row col-centered" } do |form| %>
             <%= transloadit :s3_store %>
-            <%= form.file_field :file, html: { class: 'add_video filestyle custom-file-input', id: 'imgInp',  } %>
+            <%= form.file_field :file, accept: 'video/*', class: 'add_video filestyle', id: 'imgInp', data: {classButton: "btn btn-primary", input:"false", classIcon:"icon-plus", icon:"false", buttonText:"Load Camera"}  %>
             <%= form.submit "Save Selfie", class: 'hidden' %>
           <% end %>
 
@@ -51,5 +52,8 @@
 <script>
 $('input:file').on('change', function(){
     $('input:submit').removeClass('hidden');
+  })
+  $(":file").filestyle({
+    input: false
   })
 </script>
