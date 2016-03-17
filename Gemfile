@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+ruby "2.2.2"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.4'
@@ -35,13 +35,13 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bootstrap-sass', '~> 3.2.0'
 gem 'autoprefixer-rails'
 gem 'rails_12factor', group: :production
-ruby "2.2.2"
+
 
 gem 'bootstrap-filestyle-rails'
-
 gem 'font-awesome-sass'
 gem 'annotate'
-
+gem 'simple_form'
+gem 'figaro'
 group :development, :test do
   gem 'byebug'
   gem 'pry'
@@ -50,3 +50,4 @@ group :development, :test do
   gem 'binding_of_caller'
   gem 'better_errors'
 end
+gem 'transloadit-rails'

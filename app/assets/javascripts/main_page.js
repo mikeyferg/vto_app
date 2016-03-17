@@ -5,11 +5,17 @@ $(document).ready(function(){
   $(":file").filestyle({
     input: false
   })
+
   $("imgInp").filestyle();
 
-  // $("#imgInp").on("click", function(){
-  //   $("video").removeClass('hidden');
-  //   })
+
+
+  $("add_video").filestyle();
+
+
+  $("#imgInp").on("click", function(){
+    $("video").removeClass('hidden');
+    })
 
   function readURL(input) {
       if (input.files && input.files[0]) {
@@ -18,6 +24,7 @@ $(document).ready(function(){
 
               $('video').attr('src', e.target.result);
               console.log(e.target.result)
+              console.log(params)
               $('video').removeClass('hidden');
           }
           reader.readAsDataURL(input.files[0]);
@@ -27,4 +34,6 @@ $(document).ready(function(){
   $("#imgInp").change(function(){
       readURL(this);
   });
+
+
 });

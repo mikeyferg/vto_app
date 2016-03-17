@@ -1,0 +1,2 @@
+# Ignore application configuration -- DO NOT REMOVE
+config/application.yml
