@@ -6,10 +6,6 @@ body {
     overflow-x: hidden;
 }
 
-/*p {
-    font-size: 15px;
-    font-weight: normal;
-}*/
 
 p.small {
     font-size: 16px;
@@ -62,7 +58,7 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #18bc9c;
+    background-color: red;
 }
 
 hr.star-primary {
@@ -487,8 +483,11 @@ p {
 header {
   padding-top: 20px;
   margin-bottom: 5px;
+  background-color: black;
 }
-
-/*.hidden {
-  display:none;
-}*/
+body {
+  background-color: black;
+}
+.test{
+  color: white;
+}
