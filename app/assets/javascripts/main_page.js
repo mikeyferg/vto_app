@@ -6,6 +6,7 @@ $(document).ready(function(){
     input: false
   })
 
+
 $('.fade_1').delay(4000).fadeIn(1000)
   // $("imgInp").filestyle();
 $('.fade_2').delay(8000).fadeIn(1000)
@@ -23,7 +24,10 @@ $('.fade_3').delay(12000).fadeIn(1000)
               $('video').attr('src', e.target.result);
               console.log(e.target.result)
               console.log(params)
-              $('video').removeClass('hidden');
+              setTimeout(function(){
+                $('video').removeClass('hidden');
+              }, 5000)
+              // $('video').removeClass('hidden');
           }
           reader.readAsDataURL(input.files[0]);
       }
