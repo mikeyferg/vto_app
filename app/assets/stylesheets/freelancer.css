@@ -17,7 +17,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #18bc9c;
+    /*color: #18bc9c;*/
 }
 
 h1,
@@ -52,23 +52,21 @@ hr.star-primary:after {
     font-size: 2em;
 }
 
-hr.star-light {
+/*hr.star-light {
     border-color: #fff;
 }
-
 hr.star-light:after {
     color: #fff;
-    background-color: red;
-}
+}*/
 
-hr.star-primary {
+/*hr.star-primary {
     border-color: #2c3e50;
 }
 
 hr.star-primary:after {
     color: #2c3e50;
-    background-color: #fff;
-}
+
+}*/
 
 .img-centered {
     margin: 0 auto;
@@ -76,8 +74,8 @@ hr.star-primary:after {
 
 header {
     text-align: center;
-    color: #fff;
-    background: #18bc9c;
+    /*color: #fff;*/
+    /*background: #18bc9c;*/
 }
 
 header .container {
@@ -175,7 +173,7 @@ section h2 {
 }
 
 section.success {
-    color: #fff;
+    /*color: #fff;*/
     background: #18bc9c;
 }
 
@@ -185,7 +183,7 @@ section.success a:focus,
 section.success a:active,
 section.success a.active {
     outline: 0;
-    color: #2c3e50;
+    /*color: #2c3e50;*/
 }
 
 @media(max-width:767px) {
@@ -233,7 +231,7 @@ section.success a.active {
     margin-top: -12px;
     text-align: center;
     font-size: 20px;
-    color: #fff;
+    /*color: #fff;*/
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
@@ -259,7 +257,7 @@ section.success a.active {
     margin-top: 15px;
     border: solid 2px #fff;
     font-size: 20px;
-    color: #fff;
+    /*color: #fff;*/
     background: 0 0;
     transition: all .3s ease-in-out;
 }
@@ -269,7 +267,7 @@ section.success a.active {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #18bc9c;
+    /*color: #18bc9c;*/
     background: #fff;
 }
 
@@ -322,7 +320,7 @@ section.success a.active {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #18bc9c;
+    /*color: #18bc9c;*/
 }
 
 form .row:first-child .floating-label-form-group {
@@ -330,7 +328,7 @@ form .row:first-child .floating-label-form-group {
 }
 
 footer {
-    color: #fff;
+    /*color: #fff;*/
 }
 
 footer h3 {
@@ -339,7 +337,7 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 50px;
-    background-color: #2c3e50;
+    /*background-color: #2c3e50;*/
 }
 
 footer .footer-col {
@@ -348,7 +346,7 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #233140;
+    /*background-color: #233140;*/
 }
 
 .btn-social {
@@ -432,7 +430,7 @@ footer .footer-below {
     width: 1px;
     height: 75px;
     margin-left: 35px;
-    background-color: #2c3e50;
+    /*background-color: #2c3e50;*/
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -442,7 +440,7 @@ footer .footer-below {
     z-index: 1052;
     width: 1px;
     height: 75px;
-    background-color: #2c3e50;
+    /*background-color: #2c3e50;*/
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
@@ -453,10 +451,10 @@ footer .footer-below {
     opacity: 0;
 }
 
-.test {
+/*.test {
   color: black;
 
-}
+}*/
 p {
   font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 14px;
@@ -483,15 +481,19 @@ p {
 header {
   padding-top: 20px;
   margin-bottom: 5px;
-  background-color: black;
+  /*background-color: black;*/
 }
-body {
+/*body {
   background-color: black;
-}
-.test{
+}*/
+/*.test{
   color: white;
-}
+}*/
 
 .fade_1, .fade_2, .fade_2b, .fade_3 {
   display:none;
+}
+
+body {
+  color:#fff
 }

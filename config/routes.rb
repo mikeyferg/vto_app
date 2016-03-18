@@ -6,6 +6,8 @@ Rails.application.routes.draw do
   root 'static_pages#main_page'
 
   resources :videos
+  resources :styles
+  resources :static_pages
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
   get 'admin' => 'static_pages#admin'

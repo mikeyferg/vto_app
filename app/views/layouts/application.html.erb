@@ -7,6 +7,18 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
+<style>
+ body {
+   background-color: <%= @style_background %>;
+   color: <%= @style_text %>
+ }
+ hr.star-light {
+     border-color: <%= @style_star %>;
+ }
+ hr.star-light:after {
+     color: <%= @style_star %>;
+ }
+</style>
 <body>
 
 <%= yield %>

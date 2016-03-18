@@ -13,11 +13,6 @@ $('.fade_2').delay(8000).fadeIn(1000)
 $('.fade_2b').delay(12000).fadeIn(1000)
 $('.fade_3').delay(16000).fadeIn(1000)
 
-$('.fade_1a').delay(4000).fadeIn(1000)
-  // $("imgInp").filestyle();
-$('.fade_2a').delay(8000).fadeIn(1000)
-$('.fade_2ba').delay(12000).fadeIn(1000)
-$('.fade_3a').delay(16000).fadeIn(1000)
 
   $("#imgInp").on("click", function(){
     $("video").removeClass('hidden');

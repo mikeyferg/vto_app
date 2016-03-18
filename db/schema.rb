@@ -11,10 +11,20 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160318163030) do
+ActiveRecord::Schema.define(version: 20160318171125) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "styles", force: :cascade do |t|
+    t.string   "header_background_color"
+    t.string   "header_text_color"
+    t.string   "header_background_star_color"
+    t.string   "body_background_color"
+    t.string   "body_text_color"
+    t.datetime "created_at",                   null: false
+    t.datetime "updated_at",                   null: false
+  end
 
   create_table "videos", force: :cascade do |t|
     t.string   "url"

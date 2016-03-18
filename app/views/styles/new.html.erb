@@ -1,0 +1,13 @@
+
+<section class="styles">
+  <h1>Admin Tools</h1>
+
+
+  <%= simple_form_for @style do |f| %>
+    <%= f.input :header_background_color, label:'Background Color' %>
+      <%= f.input :body_text_color, label:'Text Color' %>
+      <%= f.input :header_background_star_color, label: 'Star Color' %>
+    <%= f.button :submit, class:"styles_submit" %>
+  <% end %>
+
+</section>
