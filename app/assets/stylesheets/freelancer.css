@@ -492,10 +492,6 @@ body {
   color: white;
 }
 
-.test {
-  display:none;
-}
-
-.test2 {
+.fade_1, .fade_2, .fade_3 {
   display:none;
 }
