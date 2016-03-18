@@ -6,9 +6,9 @@ $(document).ready(function(){
     input: false
   })
 
-$('.test').delay(2000).fadeIn(1000)
+$('.test').delay(5000).fadeIn(1000)
   // $("imgInp").filestyle();
-$('.test2').delay(5000).fadeIn(1000)
+$('.test2').delay(8000).fadeIn(1000)
 
   $("#imgInp").on("click", function(){
     $("video").removeClass('hidden');
