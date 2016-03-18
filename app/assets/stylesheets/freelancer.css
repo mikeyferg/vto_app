@@ -491,3 +491,11 @@ body {
 .test{
   color: white;
 }
+
+.test {
+  display:none;
+}
+
+.test2 {
+  display:none;
+}
