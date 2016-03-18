@@ -1,3 +1,4 @@
 <h1>Video Number <%= @video.id %></h1>
-<%= image_tag(@video.thumbnail, style: 'height:25%;width:25%') %>
+<%= image_tag(@video.thumbnail, style: 'height:50%;width:50%') %>
+<%= image_tag(@video.thumbnail_face, style: 'height:50%;width:50%') %>
 <p><%= link_to "Download Video", @video.url %></p>

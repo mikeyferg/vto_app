@@ -13,7 +13,7 @@ class VideosController < ApplicationController
   end
 
   def create
-    @video = Video.new(url: params[:transloadit][:results][:flash_encoding][0]['url'], thumbnail: params[:transloadit][:results][:extracted_thumbs][0]['url'])
+    @video = Video.new(url: params[:transloadit][:results][:flash_encoding][0]['url'], thumbnail: params[:transloadit][:results][:extracted_thumbs][0]['url'], thumbnail_face: params[:transloadit][:results][:thumb][0]['url'])
     if @video.save
       redirect_to video_path(@video)
     else

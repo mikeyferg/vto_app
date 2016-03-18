@@ -11,7 +11,7 @@ development:
 
   templates:
     # template identified by template_id
-    s3_store: 'bba8aeb0ebaa11e585a189c55e375b84'
+    s3_store: 'd0625590ecd611e5adfcdb4e56f019b1'
     # # template defined inline
     # image_resize:
     #   steps:
@@ -34,7 +34,7 @@ production:
 
   templates:
     # template identified by template_id
-    s3_store: 'bba8aeb0ebaa11e585a189c55e375b84'
+    s3_store: 'd0625590ecd611e5adfcdb4e56f019b1'
 
     # # template defined inline
     # image_resize:

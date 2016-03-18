@@ -22,21 +22,21 @@
 <section id="portfolio">
   <div class="container">
       <div class="row test">
-          <div class="col-sm-4 portfolio-item center">
+          <div class="col-sm-4 portfolio-item center fade_1a">
               <h3>Record yourself turning your head <br>SLOWLY</h2>
           </div>
-          <div class="col-sm-4 portfolio-item center">
+          <div class="col-sm-4 portfolio-item center fade_2a">
               <!-- <p>Turn head all the way left and then right and back to center.</p> -->
               <p class="two">First all the way left, then right, and back to center</p>
           </div>
-          <div class="col-sm-4 portfolio-item center">
+          <div class="col-sm-4 portfolio-item center fade_2ba">
               <p>Record for about 10 seconds</p>
           </div>
           <!-- <div class="col-sm-4 portfolio-item center">
               <p>Don't forget to start and stop the camera!</p>
           </div> -->
       </div>
-      <div class="row">
+      <div class="row fade_3a test2a">
         <div class="col-sm-4 portfolio-item center">
           <%= form_for Video.new, :html => { :id => 'upload', class: "row col-centered" } do |form| %>
             <%= transloadit :s3_store %>
