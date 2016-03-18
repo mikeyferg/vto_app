@@ -10,7 +10,8 @@ $(document).ready(function(){
 $('.fade_1').delay(4000).fadeIn(1000)
   // $("imgInp").filestyle();
 $('.fade_2').delay(8000).fadeIn(1000)
-$('.fade_3').delay(12000).fadeIn(1000)
+$('.fade_2b').delay(12000).fadeIn(1000)
+$('.fade_3').delay(16000).fadeIn(1000)
 
   $("#imgInp").on("click", function(){
     $("video").removeClass('hidden');
