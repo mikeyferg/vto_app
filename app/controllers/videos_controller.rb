@@ -27,6 +27,6 @@ class VideosController < ApplicationController
     Video.find(params[:id])
   end
   def video_params
-    params.require(:video).permit(:url, :thumbnail)
+    params.require(:video).permit(:url, :thumbnail, :thumbnail_face)
   end
 end
