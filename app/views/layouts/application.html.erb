@@ -13,12 +13,15 @@
    color: <%= @style_text %>
  }
  hr.star-light {
-     border-color: <%= @style_star %>;
+     border-color: <%= @style_text %>;
+     /*color: white;*/
  }
  hr.star-light:after {
      color: <%= @style_star %>;
+
  }
 </style>
+
 <body>
 
 <%= yield %>
