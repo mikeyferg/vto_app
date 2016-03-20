@@ -1,4 +1,6 @@
 <h1>Video Number <%= @video.id %></h1>
-<%= image_tag(@video.thumbnail, style: 'height:50%;width:50%') %>
-<%= image_tag(@video.thumbnail_face, style: 'height:50%;width:50%') %>
+<h3>Thumbnail 1</h3>
+<%= image_tag(@video.thumbnail) %>
 <p><%= link_to "Download Video", @video.url %></p>
+<h3>Facial Recognition<h3>
+<%= image_tag(@video.thumbnail_face, class: "face") %>
